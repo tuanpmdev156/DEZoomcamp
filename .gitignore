@@ -9,3 +9,31 @@ wheels/
 
 # Virtual environments
 .venv
+
+# Local folders
+/csv
+
+# Local .terraform directories (contains provider binaries and module cache)
+**/.terraform/*
+
+# .tfstate files (contains sensitive plain-text infrastructure data)
+*.tfstate
+*.tfstate.*
+
+# Crash log files
+crash.log
+crash.*.log
+
+# Terraform variable files (often contain secrets/passwords)
+*.tfvars
+*.tfvars.json
+
+# Ignore override files (used for local testing adjustments)
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# CLI configuration files
+.terraformrc
+terraform.rc
