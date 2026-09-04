@@ -30,3 +30,6 @@ crash.*.log
 # to change depending on the environment.
 *.tfvars
 *.tfvars.json
+
+# Sample data
+sample-data/
