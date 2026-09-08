@@ -6,6 +6,11 @@ import pandas as pd
 from sqlalchemy import create_engine
 from tqdm.auto import tqdm
 import click
+from pathlib import Path
+
+# Create the data folder automatically if it doesn't exist
+data_dir = Path("data/")
+data_dir.mkdir(exist_ok=True, parents=True)
 
 #Parameterize
 year=2021
